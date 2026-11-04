@@ -1,0 +1,97 @@
+{
+  "collection_id": "COLL-20261104-001",
+  "seed": 1,
+  "started_utc": "2026-11-04T08:14:27+00:00",
+  "steps": [
+    {
+      "run_id": "COLL-20261104-001-R001",
+      "step": 1,
+      "event_source": "iam.amazonaws.com",
+      "event_name": "ListUsers",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-test-001-2201",
+      "start_utc": "2026-11-04T08:14:27+00:00",
+      "end_utc": "2026-11-04T08:14:29+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-20261104-001-R001",
+      "step": 2,
+      "event_source": "iam.amazonaws.com",
+      "event_name": "CreateUser",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-test-001-2201",
+      "start_utc": "2026-11-04T08:14:32+00:00",
+      "end_utc": "2026-11-04T08:14:32+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-20261104-001-R001",
+      "step": 3,
+      "event_source": "iam.amazonaws.com",
+      "event_name": "AttachUserPolicy",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-test-001-2201",
+      "start_utc": "2026-11-04T08:14:35+00:00",
+      "end_utc": "2026-11-04T08:14:35+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-20261104-001-R001",
+      "step": 4,
+      "event_source": "iam.amazonaws.com",
+      "event_name": "GetUser",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-test-001-2201",
+      "start_utc": "2026-11-04T08:14:39+00:00",
+      "end_utc": "2026-11-04T08:14:40+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-20261104-001-R001",
+      "step": 5,
+      "event_source": "iam.amazonaws.com",
+      "event_name": "DetachUserPolicy",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-test-001-2201",
+      "start_utc": "2026-11-04T08:14:44+00:00",
+      "end_utc": "2026-11-04T08:14:45+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-20261104-001-R001",
+      "step": 6,
+      "event_source": "iam.amazonaws.com",
+      "event_name": "DeleteUser",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-test-001-2201",
+      "start_utc": "2026-11-04T08:14:48+00:00",
+      "end_utc": "2026-11-04T08:14:48+00:00",
+      "mandatory": true,
+      "status": "ok"
+    }
+  ],
+  "noise": [
+    {
+      "event_source": "s3.amazonaws.com",
+      "event_name": "ListBuckets",
+      "time_utc": "2026-11-04T08:14:36+00:00"
+    },
+    {
+      "event_source": "ec2.amazonaws.com",
+      "event_name": "DescribeSecurityGroups",
+      "time_utc": "2026-11-04T08:14:41+00:00"
+    },
+    {
+      "event_source": "ec2.amazonaws.com",
+      "event_name": "DescribeSecurityGroups",
+      "time_utc": "2026-11-04T08:14:45+00:00"
+    }
+  ],
+  "finished_utc": "2026-11-04T08:14:51+00:00"
+}
