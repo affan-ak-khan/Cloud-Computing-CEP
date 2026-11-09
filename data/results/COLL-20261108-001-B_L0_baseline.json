@@ -1,0 +1,20 @@
+{
+  "steps_total": 180,
+  "steps_recovered": 120,
+  "steps_claimed": 120,
+  "recall_step_coverage": 0.6667,
+  "precision": 1.0,
+  "f1": 0.8,
+  "runs_total": 30,
+  "runs_fully_reconstructed": 0,
+  "run_coverage": 0.0,
+  "ordering_accuracy": 1.0,
+  "stage_recall": {
+    "ListUsers": 0.0,
+    "CreateUser": 1.0,
+    "AttachUserPolicy": 1.0,
+    "GetUser": 0.0,
+    "DetachUserPolicy": 1.0,
+    "DeleteUser": 1.0
+  }
+}

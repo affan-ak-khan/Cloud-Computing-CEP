@@ -1,0 +1,2 @@
+run_id,target_bucket,steps_found,missing,complete,in_order
+COLL-TEST-S2-R001,cfr-s2-11081737-001-2201,12,,True,True

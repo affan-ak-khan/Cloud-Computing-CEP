@@ -1,0 +1,197 @@
+{
+  "collection_id": "COLL-TEST-S2",
+  "scenario": "S2_s3_ec2",
+  "seed": 1,
+  "started_utc": "2026-11-08T17:37:04+00:00",
+  "steps": [
+    {
+      "run_id": "COLL-TEST-S2-R001",
+      "step": 1,
+      "event_source": "s3.amazonaws.com",
+      "event_name": "CreateBucket",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-s2-11081737-001-2201",
+      "instance_id": null,
+      "start_utc": "2026-11-08T17:37:04+00:00",
+      "end_utc": "2026-11-08T17:37:06+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-TEST-S2-R001",
+      "step": 2,
+      "event_source": "s3.amazonaws.com",
+      "event_name": "PutBucketVersioning",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-s2-11081737-001-2201",
+      "instance_id": null,
+      "start_utc": "2026-11-08T17:37:09+00:00",
+      "end_utc": "2026-11-08T17:37:09+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-TEST-S2-R001",
+      "step": 3,
+      "event_source": "s3.amazonaws.com",
+      "event_name": "PutBucketEncryption",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-s2-11081737-001-2201",
+      "instance_id": null,
+      "start_utc": "2026-11-08T17:37:12+00:00",
+      "end_utc": "2026-11-08T17:37:12+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-TEST-S2-R001",
+      "step": 4,
+      "event_source": "s3.amazonaws.com",
+      "event_name": "PutBucketPublicAccessBlock",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-s2-11081737-001-2201",
+      "instance_id": null,
+      "start_utc": "2026-11-08T17:37:17+00:00",
+      "end_utc": "2026-11-08T17:37:17+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-TEST-S2-R001",
+      "step": 5,
+      "event_source": "s3.amazonaws.com",
+      "event_name": "PutBucketPolicy",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-s2-11081737-001-2201",
+      "instance_id": null,
+      "start_utc": "2026-11-08T17:37:23+00:00",
+      "end_utc": "2026-11-08T17:37:23+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-TEST-S2-R001",
+      "step": 6,
+      "event_source": "s3.amazonaws.com",
+      "event_name": "GetBucketPolicy",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-s2-11081737-001-2201",
+      "instance_id": null,
+      "start_utc": "2026-11-08T17:37:26+00:00",
+      "end_utc": "2026-11-08T17:37:27+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-TEST-S2-R001",
+      "step": 7,
+      "event_source": "ec2.amazonaws.com",
+      "event_name": "RunInstances",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-s2-11081737-001-2201",
+      "instance_id": "i-0947668b2ce9a542d",
+      "start_utc": "2026-11-08T17:37:30+00:00",
+      "end_utc": "2026-11-08T17:37:32+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-TEST-S2-R001",
+      "step": 8,
+      "event_source": "ec2.amazonaws.com",
+      "event_name": "DescribeInstances",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-s2-11081737-001-2201",
+      "instance_id": "i-0947668b2ce9a542d",
+      "start_utc": "2026-11-08T17:37:36+00:00",
+      "end_utc": "2026-11-08T17:37:37+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-TEST-S2-R001",
+      "step": 9,
+      "event_source": "ec2.amazonaws.com",
+      "event_name": "CreateTags",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-s2-11081737-001-2201",
+      "instance_id": "i-0947668b2ce9a542d",
+      "start_utc": "2026-11-08T17:37:40+00:00",
+      "end_utc": "2026-11-08T17:37:40+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-TEST-S2-R001",
+      "step": 10,
+      "event_source": "ec2.amazonaws.com",
+      "event_name": "TerminateInstances",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-s2-11081737-001-2201",
+      "instance_id": "i-0947668b2ce9a542d",
+      "start_utc": "2026-11-08T17:37:45+00:00",
+      "end_utc": "2026-11-08T17:37:46+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-TEST-S2-R001",
+      "step": 11,
+      "event_source": "s3.amazonaws.com",
+      "event_name": "DeleteBucketPolicy",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-s2-11081737-001-2201",
+      "instance_id": "i-0947668b2ce9a542d",
+      "start_utc": "2026-11-08T17:37:49+00:00",
+      "end_utc": "2026-11-08T17:37:51+00:00",
+      "mandatory": true,
+      "status": "ok"
+    },
+    {
+      "run_id": "COLL-TEST-S2-R001",
+      "step": 12,
+      "event_source": "s3.amazonaws.com",
+      "event_name": "DeleteBucket",
+      "actor_alias": "actor-1",
+      "target_alias": "cfr-s2-11081737-001-2201",
+      "instance_id": "i-0947668b2ce9a542d",
+      "start_utc": "2026-11-08T17:37:54+00:00",
+      "end_utc": "2026-11-08T17:37:55+00:00",
+      "mandatory": true,
+      "status": "ok"
+    }
+  ],
+  "noise": [
+    {
+      "event_source": "s3.amazonaws.com",
+      "event_name": "ListBuckets",
+      "time_utc": "2026-11-08T17:37:14+00:00"
+    },
+    {
+      "event_source": "ec2.amazonaws.com",
+      "event_name": "DescribeSecurityGroups",
+      "time_utc": "2026-11-08T17:37:20+00:00"
+    },
+    {
+      "event_source": "ec2.amazonaws.com",
+      "event_name": "DescribeSecurityGroups",
+      "time_utc": "2026-11-08T17:37:23+00:00"
+    },
+    {
+      "event_source": "s3.amazonaws.com",
+      "event_name": "ListBuckets",
+      "time_utc": "2026-11-08T17:37:33+00:00"
+    },
+    {
+      "event_source": "iam.amazonaws.com",
+      "event_name": "ListRoles",
+      "time_utc": "2026-11-08T17:37:42+00:00"
+    },
+    {
+      "event_source": "ec2.amazonaws.com",
+      "event_name": "DescribeSecurityGroups",
+      "time_utc": "2026-11-08T17:37:51+00:00"
+    }
+  ],
+  "finished_utc": "2026-11-08T17:37:58+00:00"
+}

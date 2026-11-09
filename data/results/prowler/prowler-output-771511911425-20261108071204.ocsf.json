@@ -1,0 +1,834 @@
+[{
+    "message": "Multiregion trail cfr-trail-a has log file validation enabled.",
+    "metadata": {
+        "event_code": "cloudtrail_log_file_validation_enabled",
+        "product": {
+            "name": "Prowler",
+            "uid": "prowler",
+            "vendor_name": "Prowler",
+            "version": "5.48.0"
+        },
+        "profiles": [
+            "cloud",
+            "datetime"
+        ],
+        "tenant_uid": "",
+        "version": "1.5.0"
+    },
+    "severity_id": 3,
+    "severity": "Medium",
+    "status": "New",
+    "status_code": "PASS",
+    "status_detail": "Multiregion trail cfr-trail-a has log file validation enabled.",
+    "status_id": 1,
+    "unmapped": {
+        "related_url": "",
+        "categories": [
+            "logging",
+            "forensics-ready"
+        ],
+        "depends_on": [],
+        "related_to": [],
+        "additional_urls": [
+            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-intro.html",
+            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-enabling.html",
+            "https://www.trendmicro.com/trendaivisiononecloudriskmanagement/knowledge-base/aws/CloudTrail/cloudtrail-log-file-integrity-validation.html",
+            "https://deepwiki.com/acantril/learn-cantrill-io-labs/7.1-cloudtrail-log-file-integrity"
+        ],
+        "notes": "",
+        "compliance": {
+            "AWS-AI-Security-Framework-1.0": [
+                "AISF-DETECT-01"
+            ],
+            "AWS-Foundational-Security-Best-Practices": [
+                "CloudTrail.4"
+            ],
+            "AWS-Well-Architected-Framework-Security-Pillar": [
+                "SEC06-BP01",
+                "SEC06-BP06"
+            ],
+            "C5-2025": [
+                "AM-01.01AC",
+                "OPS-11.02AC",
+                "OPS-13.01AC",
+                "OPS-15.02AC",
+                "OPS-26.05B",
+                "OPS-26.01AS",
+                "DEV-08.02B",
+                "SIM-01.02AC",
+                "SIM-03.07B",
+                "COM-04.01AC",
+                "PSS-12.03AC"
+            ],
+            "CCC-v2025.10": [
+                "CCC.Core.CN09.AR01",
+                "CCC.Core.CN09.AR02",
+                "CCC.Core.CN09.AR03",
+                "CCC.Core.CN04.AR01",
+                "CCC.AuditLog.CN01.AR01",
+                "CCC.AuditLog.CN01.AR02"
+            ],
+            "CISA": [
+                "your-systems-3"
+            ],
+            "CIS-1.4": [
+                "3.2"
+            ],
+            "CIS-1.5": [
+                "3.2"
+            ],
+            "CIS-2.0": [
+                "3.2"
+            ],
+            "CIS-3.0": [
+                "3.2"
+            ],
+            "CIS-4.0.1": [
+                "3.2"
+            ],
+            "CIS-5.0": [
+                "3.2"
+            ],
+            "CIS-6.0": [
+                "4.2"
+            ],
+            "CIS-7.0": [
+                "4.2"
+            ],
+            "ENS-RD2022": [
+                "op.exp.8.aws.ct.3"
+            ],
+            "FedRAMP-Low-Revision-4": [
+                "ac-2",
+                "au-2",
+                "au-9"
+            ],
+            "FedRamp-Moderate-Revision-4": [
+                "au-9",
+                "si-7-1",
+                "si-7"
+            ],
+            "GDPR": [
+                "article_25",
+                "article_32"
+            ],
+            "GxP-21-CFR-Part-11": [
+                "11.10-a",
+                "11.30"
+            ],
+            "HIPAA": [
+                "164_308_a_1_ii_b",
+                "164_308_a_1_ii_d",
+                "164_312_b",
+                "164_312_c_1",
+                "164_312_c_2"
+            ],
+            "ISO27001-2022": [
+                "A.8.15",
+                "A.8.16"
+            ],
+            "KISA-ISMS-P-2023": [
+                "2.9.4",
+                "2.10.1",
+                "2.10.2"
+            ],
+            "KISA-ISMS-P-2023-korean": [
+                "2.9.4",
+                "2.10.1",
+                "2.10.2"
+            ],
+            "NIS2": [
+                "3.4.2.d"
+            ],
+            "NIST-800-171-Revision-2": [
+                "3_3_8",
+                "3_13_1"
+            ],
+            "NIST-800-53-Revision-4": [
+                "si_7_1",
+                "si_7"
+            ],
+            "NIST-800-53-Revision-5": [
+                "au_9_a",
+                "cm_6_a",
+                "cm_9_b",
+                "pm_11_b",
+                "pm_17_b",
+                "sa_1_1",
+                "sa_10_1",
+                "sc_16_1",
+                "si_1_a_2",
+                "si_4_d",
+                "si_7_1",
+                "si_7_3",
+                "si_7_7",
+                "si_7_a"
+            ],
+            "NIST-CSF-1.1": [
+                "ds_6",
+                "ds_7"
+            ],
+            "NIST-CSF-2.0": [
+                "ds_6",
+                "pt_1"
+            ],
+            "PCI-3.2.1": [
+                "10.5",
+                "10.5.2",
+                "10.5.5"
+            ],
+            "PCI-4.0": [
+                "10.3.2.5",
+                "10.3.3.7",
+                "10.3.4.6",
+                "A1.2.1.12"
+            ],
+            "ProwlerThreatScore-1.0": [
+                "3.1.2"
+            ],
+            "SecNumCloud-3.2": [
+                "10.4",
+                "12.7",
+                "16.6"
+            ],
+            "SOC2": [
+                "cc_7_3",
+                "pi_1_3"
+            ]
+        },
+        "scan_id": "01a1ba00-0025-7077-8a0a-4fa964470d6b",
+        "provider_uid": "771511911425",
+        "provider": "aws"
+    },
+    "activity_name": "Create",
+    "activity_id": 1,
+    "finding_info": {
+        "analytic": {
+            "category": "cloudtrail",
+            "name": "CloudTrail trail has log file validation enabled",
+            "type": "Rule",
+            "type_id": 1,
+            "uid": "cloudtrail_log_file_validation_enabled"
+        },
+        "created_time": 1794150724,
+        "created_time_dt": "2026-11-08T07:12:04.645857",
+        "desc": "**AWS CloudTrail trails** are evaluated for **log file integrity validation** being enabled (`LogFileValidationEnabled`).\n\nWhen enabled, CloudTrail generates signed digest files to verify that S3-delivered log files remain unchanged.",
+        "title": "CloudTrail trail has log file validation enabled",
+        "types": [
+            "Software and Configuration Checks/AWS Security Best Practices",
+            "Software and Configuration Checks/Industry and Regulatory Standards/AWS Foundational Security Best Practices",
+            "Software and Configuration Checks/Industry and Regulatory Standards/CIS AWS Foundations Benchmark"
+        ],
+        "uid": "prowler-aws-cloudtrail_log_file_validation_enabled-771511911425-us-east-1-cfr-trail-a"
+    },
+    "resources": [
+        {
+            "cloud_partition": "aws",
+            "region": "us-east-1",
+            "data": {
+                "details": "",
+                "metadata": {
+                    "name": "cfr-trail-a",
+                    "is_multiregion": true,
+                    "home_region": "us-east-1",
+                    "arn": "arn:aws:cloudtrail:us-east-1:771511911425:trail/cfr-trail-a",
+                    "region": "us-east-1",
+                    "is_logging": true,
+                    "log_file_validation_enabled": true,
+                    "latest_cloudwatch_delivery_time": null,
+                    "s3_bucket": "aws-cloudtrail-logs-771511911425-c11e0a09",
+                    "kms_key": null,
+                    "log_group_arn": null,
+                    "data_events": [
+                        {
+                            "is_advanced": true,
+                            "event_selector": {
+                                "Name": "Management events selector",
+                                "FieldSelectors": [
+                                    {
+                                        "Field": "eventCategory",
+                                        "Equals": [
+                                            "Management"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "tags": [],
+                    "has_insight_selectors": null,
+                    "status_error": null,
+                    "event_selectors_error": null
+                }
+            },
+            "group": {
+                "name": "cloudtrail"
+            },
+            "labels": [],
+            "name": "cfr-trail-a",
+            "type": "AwsCloudTrailTrail",
+            "uid": "arn:aws:cloudtrail:us-east-1:771511911425:trail/cfr-trail-a"
+        }
+    ],
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_name": "Detection Finding",
+    "class_uid": 2004,
+    "cloud": {
+        "account": {
+            "name": "",
+            "type": "AWS Account",
+            "type_id": 10,
+            "uid": "771511911425",
+            "labels": []
+        },
+        "org": {
+            "name": "",
+            "ou_uid": "",
+            "ou_name": "",
+            "uid": ""
+        },
+        "provider": "aws",
+        "region": "us-east-1"
+    },
+    "remediation": {
+        "desc": "Enable **log file integrity validation** on all trails (`LogFileValidationEnabled=true`).\n\nEnforce **least privilege** on the logs bucket, retain and protect digest files (e.g., S3 Object Lock/MFA Delete), and monitor validation results to support **defense in depth**.",
+        "references": [
+            "https://hub.prowler.com/check/cloudtrail_log_file_validation_enabled"
+        ]
+    },
+    "risk_details": "Without validation, adversaries can alter, forge, or delete audit entries without detection, compromising log **integrity** and non-repudiation.\n\nThis impairs investigations, enables alert evasion, and obscures unauthorized changes across regions or accounts.",
+    "time": 1794150724,
+    "time_dt": "2026-11-08T07:12:04.645857",
+    "type_uid": 200401,
+    "type_name": "Detection Finding: Create"
+},{
+    "message": "Multiregion trail cfr-trail-b-weak has log file validation disabled.",
+    "metadata": {
+        "event_code": "cloudtrail_log_file_validation_enabled",
+        "product": {
+            "name": "Prowler",
+            "uid": "prowler",
+            "vendor_name": "Prowler",
+            "version": "5.48.0"
+        },
+        "profiles": [
+            "cloud",
+            "datetime"
+        ],
+        "tenant_uid": "",
+        "version": "1.5.0"
+    },
+    "severity_id": 3,
+    "severity": "Medium",
+    "status": "New",
+    "status_code": "FAIL",
+    "status_detail": "Multiregion trail cfr-trail-b-weak has log file validation disabled.",
+    "status_id": 1,
+    "unmapped": {
+        "related_url": "",
+        "categories": [
+            "logging",
+            "forensics-ready"
+        ],
+        "depends_on": [],
+        "related_to": [],
+        "additional_urls": [
+            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-intro.html",
+            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-log-file-validation-enabling.html",
+            "https://www.trendmicro.com/trendaivisiononecloudriskmanagement/knowledge-base/aws/CloudTrail/cloudtrail-log-file-integrity-validation.html",
+            "https://deepwiki.com/acantril/learn-cantrill-io-labs/7.1-cloudtrail-log-file-integrity"
+        ],
+        "notes": "",
+        "compliance": {
+            "AWS-AI-Security-Framework-1.0": [
+                "AISF-DETECT-01"
+            ],
+            "AWS-Foundational-Security-Best-Practices": [
+                "CloudTrail.4"
+            ],
+            "AWS-Well-Architected-Framework-Security-Pillar": [
+                "SEC06-BP01",
+                "SEC06-BP06"
+            ],
+            "C5-2025": [
+                "AM-01.01AC",
+                "OPS-11.02AC",
+                "OPS-13.01AC",
+                "OPS-15.02AC",
+                "OPS-26.05B",
+                "OPS-26.01AS",
+                "DEV-08.02B",
+                "SIM-01.02AC",
+                "SIM-03.07B",
+                "COM-04.01AC",
+                "PSS-12.03AC"
+            ],
+            "CCC-v2025.10": [
+                "CCC.Core.CN09.AR01",
+                "CCC.Core.CN09.AR02",
+                "CCC.Core.CN09.AR03",
+                "CCC.Core.CN04.AR01",
+                "CCC.AuditLog.CN01.AR01",
+                "CCC.AuditLog.CN01.AR02"
+            ],
+            "CISA": [
+                "your-systems-3"
+            ],
+            "CIS-1.4": [
+                "3.2"
+            ],
+            "CIS-1.5": [
+                "3.2"
+            ],
+            "CIS-2.0": [
+                "3.2"
+            ],
+            "CIS-3.0": [
+                "3.2"
+            ],
+            "CIS-4.0.1": [
+                "3.2"
+            ],
+            "CIS-5.0": [
+                "3.2"
+            ],
+            "CIS-6.0": [
+                "4.2"
+            ],
+            "CIS-7.0": [
+                "4.2"
+            ],
+            "ENS-RD2022": [
+                "op.exp.8.aws.ct.3"
+            ],
+            "FedRAMP-Low-Revision-4": [
+                "ac-2",
+                "au-2",
+                "au-9"
+            ],
+            "FedRamp-Moderate-Revision-4": [
+                "au-9",
+                "si-7-1",
+                "si-7"
+            ],
+            "GDPR": [
+                "article_25",
+                "article_32"
+            ],
+            "GxP-21-CFR-Part-11": [
+                "11.10-a",
+                "11.30"
+            ],
+            "HIPAA": [
+                "164_308_a_1_ii_b",
+                "164_308_a_1_ii_d",
+                "164_312_b",
+                "164_312_c_1",
+                "164_312_c_2"
+            ],
+            "ISO27001-2022": [
+                "A.8.15",
+                "A.8.16"
+            ],
+            "KISA-ISMS-P-2023": [
+                "2.9.4",
+                "2.10.1",
+                "2.10.2"
+            ],
+            "KISA-ISMS-P-2023-korean": [
+                "2.9.4",
+                "2.10.1",
+                "2.10.2"
+            ],
+            "NIS2": [
+                "3.4.2.d"
+            ],
+            "NIST-800-171-Revision-2": [
+                "3_3_8",
+                "3_13_1"
+            ],
+            "NIST-800-53-Revision-4": [
+                "si_7_1",
+                "si_7"
+            ],
+            "NIST-800-53-Revision-5": [
+                "au_9_a",
+                "cm_6_a",
+                "cm_9_b",
+                "pm_11_b",
+                "pm_17_b",
+                "sa_1_1",
+                "sa_10_1",
+                "sc_16_1",
+                "si_1_a_2",
+                "si_4_d",
+                "si_7_1",
+                "si_7_3",
+                "si_7_7",
+                "si_7_a"
+            ],
+            "NIST-CSF-1.1": [
+                "ds_6",
+                "ds_7"
+            ],
+            "NIST-CSF-2.0": [
+                "ds_6",
+                "pt_1"
+            ],
+            "PCI-3.2.1": [
+                "10.5",
+                "10.5.2",
+                "10.5.5"
+            ],
+            "PCI-4.0": [
+                "10.3.2.5",
+                "10.3.3.7",
+                "10.3.4.6",
+                "A1.2.1.12"
+            ],
+            "ProwlerThreatScore-1.0": [
+                "3.1.2"
+            ],
+            "SecNumCloud-3.2": [
+                "10.4",
+                "12.7",
+                "16.6"
+            ],
+            "SOC2": [
+                "cc_7_3",
+                "pi_1_3"
+            ]
+        },
+        "scan_id": "01a1ba00-0025-7077-8a0a-4fa964470d6b",
+        "provider_uid": "771511911425",
+        "provider": "aws"
+    },
+    "activity_name": "Create",
+    "activity_id": 1,
+    "finding_info": {
+        "analytic": {
+            "category": "cloudtrail",
+            "name": "CloudTrail trail has log file validation enabled",
+            "type": "Rule",
+            "type_id": 1,
+            "uid": "cloudtrail_log_file_validation_enabled"
+        },
+        "created_time": 1794150724,
+        "created_time_dt": "2026-11-08T07:12:04.645857",
+        "desc": "**AWS CloudTrail trails** are evaluated for **log file integrity validation** being enabled (`LogFileValidationEnabled`).\n\nWhen enabled, CloudTrail generates signed digest files to verify that S3-delivered log files remain unchanged.",
+        "title": "CloudTrail trail has log file validation enabled",
+        "types": [
+            "Software and Configuration Checks/AWS Security Best Practices",
+            "Software and Configuration Checks/Industry and Regulatory Standards/AWS Foundational Security Best Practices",
+            "Software and Configuration Checks/Industry and Regulatory Standards/CIS AWS Foundations Benchmark"
+        ],
+        "uid": "prowler-aws-cloudtrail_log_file_validation_enabled-771511911425-us-east-1-cfr-trail-b-weak"
+    },
+    "resources": [
+        {
+            "cloud_partition": "aws",
+            "region": "us-east-1",
+            "data": {
+                "details": "",
+                "metadata": {
+                    "name": "cfr-trail-b-weak",
+                    "is_multiregion": true,
+                    "home_region": "us-east-1",
+                    "arn": "arn:aws:cloudtrail:us-east-1:771511911425:trail/cfr-trail-b-weak",
+                    "region": "us-east-1",
+                    "is_logging": true,
+                    "log_file_validation_enabled": false,
+                    "latest_cloudwatch_delivery_time": null,
+                    "s3_bucket": "aws-cloudtrail-logs-771511911425-277318e9",
+                    "kms_key": null,
+                    "log_group_arn": null,
+                    "data_events": [
+                        {
+                            "is_advanced": true,
+                            "event_selector": {
+                                "Name": "Management events selector",
+                                "FieldSelectors": [
+                                    {
+                                        "Field": "eventCategory",
+                                        "Equals": [
+                                            "Management"
+                                        ]
+                                    },
+                                    {
+                                        "Field": "readOnly",
+                                        "Equals": [
+                                            "false"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "tags": [],
+                    "has_insight_selectors": null,
+                    "status_error": null,
+                    "event_selectors_error": null
+                }
+            },
+            "group": {
+                "name": "cloudtrail"
+            },
+            "labels": [],
+            "name": "cfr-trail-b-weak",
+            "type": "AwsCloudTrailTrail",
+            "uid": "arn:aws:cloudtrail:us-east-1:771511911425:trail/cfr-trail-b-weak"
+        }
+    ],
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_name": "Detection Finding",
+    "class_uid": 2004,
+    "cloud": {
+        "account": {
+            "name": "",
+            "type": "AWS Account",
+            "type_id": 10,
+            "uid": "771511911425",
+            "labels": []
+        },
+        "org": {
+            "name": "",
+            "ou_uid": "",
+            "ou_name": "",
+            "uid": ""
+        },
+        "provider": "aws",
+        "region": "us-east-1"
+    },
+    "remediation": {
+        "desc": "Enable **log file integrity validation** on all trails (`LogFileValidationEnabled=true`).\n\nEnforce **least privilege** on the logs bucket, retain and protect digest files (e.g., S3 Object Lock/MFA Delete), and monitor validation results to support **defense in depth**.",
+        "references": [
+            "https://hub.prowler.com/check/cloudtrail_log_file_validation_enabled"
+        ]
+    },
+    "risk_details": "Without validation, adversaries can alter, forge, or delete audit entries without detection, compromising log **integrity** and non-repudiation.\n\nThis impairs investigations, enables alert evasion, and obscures unauthorized changes across regions or accounts.",
+    "time": 1794150724,
+    "time_dt": "2026-11-08T07:12:04.645857",
+    "type_uid": 200401,
+    "type_name": "Detection Finding: Create"
+},{
+    "message": "Trail cfr-trail-a from home region us-east-1 is multi-region, is logging and have management events enabled.",
+    "metadata": {
+        "event_code": "cloudtrail_multi_region_enabled_logging_management_events",
+        "product": {
+            "name": "Prowler",
+            "uid": "prowler",
+            "vendor_name": "Prowler",
+            "version": "5.48.0"
+        },
+        "profiles": [
+            "cloud",
+            "datetime"
+        ],
+        "tenant_uid": "",
+        "version": "1.5.0"
+    },
+    "severity_id": 2,
+    "severity": "Low",
+    "status": "New",
+    "status_code": "PASS",
+    "status_detail": "Trail cfr-trail-a from home region us-east-1 is multi-region, is logging and have management events enabled.",
+    "status_id": 1,
+    "unmapped": {
+        "related_url": "",
+        "categories": [
+            "logging",
+            "forensics-ready"
+        ],
+        "depends_on": [],
+        "related_to": [],
+        "additional_urls": [
+            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html#cloudtrail-concepts-management-events",
+            "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/receive-cloudtrail-log-files-from-multiple-regions.html"
+        ],
+        "notes": "",
+        "compliance": {
+            "AWS-Account-Security-Onboarding": [
+                "Enable as part of Organization trail"
+            ],
+            "AWS-AI-Security-Framework-1.0": [
+                "AISF-DETECT-01"
+            ],
+            "C5-2025": [
+                "OIS-05.02B",
+                "AM-01.01AC",
+                "PS-02.01B",
+                "PS-02.01AS",
+                "PS-02.02AS",
+                "OPS-11.02AC",
+                "OPS-12.01B",
+                "OPS-13.02B",
+                "OPS-13.01AC",
+                "OPS-13.03AC",
+                "OPS-15.01B",
+                "OPS-15.02B",
+                "OPS-15.03B",
+                "OPS-15.01AC",
+                "OPS-26.05B",
+                "OPS-26.01AS",
+                "IAM-07.04B",
+                "DEV-08.02B",
+                "SSO-05.01AC",
+                "SIM-03.06B",
+                "SIM-03.07B",
+                "COM-04.01AC",
+                "PSS-04.05B",
+                "PSS-12.02AC",
+                "PSS-12.03AC"
+            ],
+            "CCC-v2025.10": [
+                "CCC.Core.CN04.AR01",
+                "CCC.Core.CN04.AR02",
+                "CCC.AuditLog.CN02.AR01",
+                "CCC.Logging.CN01.AR01",
+                "CCC.IAM.CN10.AR02"
+            ],
+            "ISO27001-2022": [
+                "A.8.15",
+                "A.8.16"
+            ],
+            "KISA-ISMS-P-2023": [
+                "2.9.4",
+                "2.10.1",
+                "2.10.2",
+                "2.11.3"
+            ],
+            "KISA-ISMS-P-2023-korean": [
+                "2.9.4",
+                "2.10.1",
+                "2.10.2",
+                "2.11.3"
+            ],
+            "NIS2": [
+                "3.1.2.a",
+                "3.2.3.c",
+                "3.4.2.c"
+            ],
+            "NIST-CSF-2.0": [
+                "po_4",
+                "ov_3",
+                "pt_1",
+                "ae_1",
+                "ae_3",
+                "cm_1",
+                "cm_3",
+                "dp_4"
+            ],
+            "SecNumCloud-3.2": [
+                "12.2",
+                "12.6"
+            ]
+        },
+        "scan_id": "01a1ba00-0025-7077-8a0a-4fa964470d6b",
+        "provider_uid": "771511911425",
+        "provider": "aws"
+    },
+    "activity_name": "Create",
+    "activity_id": 1,
+    "finding_info": {
+        "analytic": {
+            "category": "cloudtrail",
+            "name": "CloudTrail trail logs management events for read and write operations",
+            "type": "Rule",
+            "type_id": 1,
+            "uid": "cloudtrail_multi_region_enabled_logging_management_events"
+        },
+        "created_time": 1794150724,
+        "created_time_dt": "2026-11-08T07:12:04.645857",
+        "desc": "**CloudTrail trails** record **management events** (`read` and `write`) in every AWS region and are actively logging, using a multi-region trail or per-region coverage.",
+        "title": "CloudTrail trail logs management events for read and write operations",
+        "types": [
+            "Software and Configuration Checks/AWS Security Best Practices",
+            "Software and Configuration Checks/Industry and Regulatory Standards/AWS Foundational Security Best Practices",
+            "Software and Configuration Checks/Industry and Regulatory Standards/CIS AWS Foundations Benchmark"
+        ],
+        "uid": "prowler-aws-cloudtrail_multi_region_enabled_logging_management_events-771511911425-us-east-1-cfr-trail-a"
+    },
+    "resources": [
+        {
+            "cloud_partition": "aws",
+            "region": "us-east-1",
+            "data": {
+                "details": "",
+                "metadata": {
+                    "name": "cfr-trail-a",
+                    "is_multiregion": true,
+                    "home_region": "us-east-1",
+                    "arn": "arn:aws:cloudtrail:us-east-1:771511911425:trail/cfr-trail-a",
+                    "region": "us-east-1",
+                    "is_logging": true,
+                    "log_file_validation_enabled": true,
+                    "latest_cloudwatch_delivery_time": null,
+                    "s3_bucket": "aws-cloudtrail-logs-771511911425-c11e0a09",
+                    "kms_key": null,
+                    "log_group_arn": null,
+                    "data_events": [
+                        {
+                            "is_advanced": true,
+                            "event_selector": {
+                                "Name": "Management events selector",
+                                "FieldSelectors": [
+                                    {
+                                        "Field": "eventCategory",
+                                        "Equals": [
+                                            "Management"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "tags": [],
+                    "has_insight_selectors": null,
+                    "status_error": null,
+                    "event_selectors_error": null
+                }
+            },
+            "group": {
+                "name": "cloudtrail"
+            },
+            "labels": [],
+            "name": "cfr-trail-a",
+            "type": "AwsCloudTrailTrail",
+            "uid": "arn:aws:cloudtrail:us-east-1:771511911425:trail/cfr-trail-a"
+        }
+    ],
+    "category_name": "Findings",
+    "category_uid": 2,
+    "class_name": "Detection Finding",
+    "class_uid": 2004,
+    "cloud": {
+        "account": {
+            "name": "",
+            "type": "AWS Account",
+            "type_id": 10,
+            "uid": "771511911425",
+            "labels": []
+        },
+        "org": {
+            "name": "",
+            "ou_uid": "",
+            "ou_name": "",
+            "uid": ""
+        },
+        "provider": "aws",
+        "region": "us-east-1"
+    },
+    "remediation": {
+        "desc": "Enable a **multi-region CloudTrail** that logs **management events** for `read` and `write` in all regions.\n\nCentralize logs in a separate, locked-down account; apply **least privilege**, encryption, retention, and integrity validation; and protect trails and storage with tamper-evident, deny-delete controls for **defense-in-depth**.",
+        "references": [
+            "https://hub.prowler.com/check/cloudtrail_multi_region_enabled_logging_management_events"
+        ]
+    },
+    "risk_details": "Without region-wide management event logging, changes to identities, networking, and audit settings can go untracked.\n\nAdversaries can operate in overlooked regions to create resources, modify permissions, or disable logging, undermining **integrity**, **confidentiality**, and incident response.",
+    "time": 1794150724,
+    "time_dt": "2026-11-08T07:12:04.645857",
+    "type_uid": 200401,
+    "type_name": "Detection Finding: Create"
+}]

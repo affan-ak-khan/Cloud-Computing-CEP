@@ -1,0 +1,27 @@
+{
+  "collection_id": "COLL-20261109-001-A",
+  "created_utc": "2026-11-08T18:50:08+00:00",
+  "input_events_csv": "data\\processed\\COLL-20261109-001-A_events.csv",
+  "input_events_sha256": "8d7fb444dc85117e921983aac1f235c71c8e7a63d88cd4d96171d0a2eb456dc0",
+  "ground_truth": "data\\ground_truth\\COLL-20261109-001-A.json",
+  "ground_truth_sha256": "012d595646c8a6fc7854c01f4e6ff30e90835fb19f2e98ccb6950176e8f69de3",
+  "levels_pct": [
+    10,
+    20,
+    30,
+    40,
+    50
+  ],
+  "seeds": [
+    1,
+    30
+  ],
+  "models": [
+    "L0_baseline",
+    "L1_random_events",
+    "L2_targeted",
+    "L3_log_files",
+    "L4_time_window"
+  ],
+  "total_evaluations": 462
+}

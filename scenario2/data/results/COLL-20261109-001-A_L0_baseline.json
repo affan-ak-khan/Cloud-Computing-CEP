@@ -1,0 +1,26 @@
+{
+  "steps_total": 360,
+  "steps_recovered": 360,
+  "steps_claimed": 360,
+  "recall_step_coverage": 1.0,
+  "precision": 1.0,
+  "f1": 1.0,
+  "runs_total": 30,
+  "runs_fully_reconstructed": 30,
+  "run_coverage": 1.0,
+  "ordering_accuracy": 1.0,
+  "stage_recall": {
+    "CreateBucket": 1.0,
+    "PutBucketVersioning": 1.0,
+    "PutBucketEncryption": 1.0,
+    "PutBucketPublicAccessBlock": 1.0,
+    "PutBucketPolicy": 1.0,
+    "GetBucketPolicy": 1.0,
+    "RunInstances": 1.0,
+    "DescribeInstances": 1.0,
+    "CreateTags": 1.0,
+    "TerminateInstances": 1.0,
+    "DeleteBucketPolicy": 1.0,
+    "DeleteBucket": 1.0
+  }
+}

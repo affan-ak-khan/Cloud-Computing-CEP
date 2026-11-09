@@ -1,0 +1,185 @@
+{
+  "collection_id": "COLL-TEST-S2",
+  "bucket": "aws-cloudtrail-logs-771511911425-c11e0a09",
+  "region": "us-east-1",
+  "downloaded_utc": "2026-11-08T17:56:17+00:00",
+  "objects_since_utc": "2026-11-08T17:35:04+00:00",
+  "object_count": 25,
+  "objects": [
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/ap-northeast-1/2026/11/08/771511911425_CloudTrail-Digest_ap-northeast-1_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 719,
+      "sha256": "a1cecf0329e094695ae89c552e52e497a1b412f16f6c3de36e447d21d637d427",
+      "s3_last_modified": "2026-11-08T17:49:30+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/ap-northeast-2/2026/11/08/771511911425_CloudTrail-Digest_ap-northeast-2_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 718,
+      "sha256": "bf1bfb44b2f24c6a447c1b2ff232d249e37f901d0466f77e0036f7613ecc547c",
+      "s3_last_modified": "2026-11-08T17:50:32+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/ap-northeast-3/2026/11/08/771511911425_CloudTrail-Digest_ap-northeast-3_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 721,
+      "sha256": "679579ced62b16b247a8a6ea32ab6f02704a759161b67a54e8498d2f856b4f92",
+      "s3_last_modified": "2026-11-08T17:50:18+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/ap-south-1/2026/11/08/771511911425_CloudTrail-Digest_ap-south-1_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 719,
+      "sha256": "2174d3de1e93c5b13c8bf139064c69ea42ac1b7c572e75d51678f04046417345",
+      "s3_last_modified": "2026-11-08T17:49:48+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/ap-southeast-1/2026/11/08/771511911425_CloudTrail-Digest_ap-southeast-1_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 716,
+      "sha256": "fdf4495ac5d08bff1a5232bd29ca40f1b94df549a94d5863515f7cd73955d990",
+      "s3_last_modified": "2026-11-08T17:50:21+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/ap-southeast-2/2026/11/08/771511911425_CloudTrail-Digest_ap-southeast-2_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 717,
+      "sha256": "8f8522771aa41b824c9d33c7a0de986cc64d267dbd371cc2fa15869aaba9d2a0",
+      "s3_last_modified": "2026-11-08T17:50:02+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/ca-central-1/2026/11/08/771511911425_CloudTrail-Digest_ca-central-1_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 717,
+      "sha256": "e1d469d851ceae219114f32315a79af81fa00924d2694850db74187868ccd777",
+      "s3_last_modified": "2026-11-08T17:50:36+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/eu-central-1/2026/11/08/771511911425_CloudTrail-Digest_eu-central-1_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 719,
+      "sha256": "d1e4b7da47a483110908b088ed6ea747bb1a8d5a2d0ee1aa0533c87bda855a68",
+      "s3_last_modified": "2026-11-08T17:50:45+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/eu-north-1/2026/11/08/771511911425_CloudTrail-Digest_eu-north-1_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 805,
+      "sha256": "546e4feb819301ffec64fdf69ddb733dd2ca57f5b6f1b2d7b09be8f1930610ed",
+      "s3_last_modified": "2026-11-08T17:50:03+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/eu-west-1/2026/11/08/771511911425_CloudTrail-Digest_eu-west-1_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 711,
+      "sha256": "452ad61226bb4acdd872f3b210dd7691d918b4c3f772adca47fbfdadf3f67408",
+      "s3_last_modified": "2026-11-08T17:50:05+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/eu-west-2/2026/11/08/771511911425_CloudTrail-Digest_eu-west-2_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 718,
+      "sha256": "7d8e50c987e7c47265bfa5d6288798bf5903a025e0f9b7efa2f1f7ade8f01d72",
+      "s3_last_modified": "2026-11-08T17:49:43+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/eu-west-3/2026/11/08/771511911425_CloudTrail-Digest_eu-west-3_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 717,
+      "sha256": "ba369d8f3b3f75246b01db3805999a770658f49ddb868bc7db30f0e0cea046bd",
+      "s3_last_modified": "2026-11-08T17:50:45+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/sa-east-1/2026/11/08/771511911425_CloudTrail-Digest_sa-east-1_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 711,
+      "sha256": "cdf6ab16a8cbcddd8ae237081ae29935f2d89b11a8f60fc8ba656191279df352",
+      "s3_last_modified": "2026-11-08T17:50:29+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/us-east-1/2026/11/08/771511911425_CloudTrail-Digest_us-east-1_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 1020,
+      "sha256": "dacc3cc5c33ff85245073aafa2ba53d07a46ede8232ec2b3f65fdc07832efed0",
+      "s3_last_modified": "2026-11-08T17:49:49+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/us-east-2/2026/11/08/771511911425_CloudTrail-Digest_us-east-2_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 710,
+      "sha256": "bf89ab8ec6ffd593f37ce00dd3e79bed1690f426b1ccc629f2d72fa23f86d584",
+      "s3_last_modified": "2026-11-08T17:50:03+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/us-west-1/2026/11/08/771511911425_CloudTrail-Digest_us-west-1_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 712,
+      "sha256": "ec0cbac26eedc2d3ae510987ca3c2750717a80b844cbb3527237802cbcf36467",
+      "s3_last_modified": "2026-11-08T17:50:12+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail-Digest/us-west-2/2026/11/08/771511911425_CloudTrail-Digest_us-west-2_cfr-trail-a_us-east-1_20261108T172739Z.json.gz",
+      "size": 713,
+      "sha256": "d60d8fda3056063998ec481a6e14457f4097211571d9431a3fc7c8a251682454",
+      "s3_last_modified": "2026-11-08T17:50:24+00:00",
+      "kind": "digest"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail/us-east-1/2026/11/08/771511911425_CloudTrail_us-east-1_20261108T1735Z_k7PS5jqRMeciog0l.json.gz",
+      "size": 743,
+      "sha256": "98b1461fe1dc28c6833b313945aecb9dee0acb23232239db3219f549af6ee976",
+      "s3_last_modified": "2026-11-08T17:35:42+00:00",
+      "kind": "log"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail/us-east-1/2026/11/08/771511911425_CloudTrail_us-east-1_20261108T1740Z_C9PnUDOyDFZ9iyHA.json.gz",
+      "size": 1576,
+      "sha256": "008b682bfd3fd8373eef01e754e1a2e8a942153b472cf9984c0a05e9a70868e9",
+      "s3_last_modified": "2026-11-08T17:41:50+00:00",
+      "kind": "log"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail/us-east-1/2026/11/08/771511911425_CloudTrail_us-east-1_20261108T1740Z_Lsu0rTo0Jz6GR3P0.json.gz",
+      "size": 1564,
+      "sha256": "4bf764639cec234622d2e5f686c30669ea2746c2bc7b1f3493d224fbc057ce02",
+      "s3_last_modified": "2026-11-08T17:42:08+00:00",
+      "kind": "log"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail/us-east-1/2026/11/08/771511911425_CloudTrail_us-east-1_20261108T1740Z_wmzmWd6snofhnLDU.json.gz",
+      "size": 1050,
+      "sha256": "4a112596230877c8530067af7765323351bf633a1cd8158cf9c0141fcb91f561",
+      "s3_last_modified": "2026-11-08T17:42:13+00:00",
+      "kind": "log"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail/us-east-1/2026/11/08/771511911425_CloudTrail_us-east-1_20261108T1745Z_ogowXBWdxEuXeJNe.json.gz",
+      "size": 6094,
+      "sha256": "8349eff40dae9196e267aa86f40e2daa46ac51e639e66df811bfd846e18cbd0e",
+      "s3_last_modified": "2026-11-08T17:41:53+00:00",
+      "kind": "log"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail/us-east-1/2026/11/08/771511911425_CloudTrail_us-east-1_20261108T1745Z_qJN8c1qxlQtJ8wtX.json.gz",
+      "size": 2065,
+      "sha256": "335d97a160150da3ccc8e31e02a0adada1fcf01957485b1fb20be9bb70824184",
+      "s3_last_modified": "2026-11-08T17:46:53+00:00",
+      "kind": "log"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail/us-east-1/2026/11/08/771511911425_CloudTrail_us-east-1_20261108T1755Z_48jcJpz2zaszixJ8.json.gz",
+      "size": 2676,
+      "sha256": "aed492bcc4947165fdc0e99ab9457f6c94fd71405a578cb0269273d61442061f",
+      "s3_last_modified": "2026-11-08T17:54:44+00:00",
+      "kind": "log"
+    },
+    {
+      "key": "AWSLogs/771511911425/CloudTrail/us-east-1/2026/11/08/771511911425_CloudTrail_us-east-1_20261108T1755Z_HvQwE1JFqDS5s7dv.json.gz",
+      "size": 1074,
+      "sha256": "604355e8f54ca325ed6c8f27962e148e1fd6452dde7bc950f845264565196fb3",
+      "s3_last_modified": "2026-11-08T17:54:32+00:00",
+      "kind": "log"
+    }
+  ]
+}
